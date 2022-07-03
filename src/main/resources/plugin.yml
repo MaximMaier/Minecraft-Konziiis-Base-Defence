@@ -1,5 +1,15 @@
-<?xml encoding="UTF-8" ?>
+version: '1.0.0'
+
 name: 'Minecraft-Konziiis-Base-Defence'
 main: 'de.konziiis.KonziiisBaseDefence'
-version: '1.0.0'
 api-version: '1.19'
+
+commands:
+  hello:
+    description: Foo command
+    aliases:
+      - foobar
+      - fubar
+    permission: test.foo
+    permission-message: You do not have permission!
+    usage: /<command> [test|stop]
