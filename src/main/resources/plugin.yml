@@ -1,8 +1,11 @@
-version: '1.0.0'
+name: Minecraft-Konziiis-Base-Defence
+version: '${project.version}'
+main: de.konziiis.minecraftkonziiisbasedefence.MinecraftKonziiisBaseDefence
+api-version: 1.19
+authors: [Caesar87, ma22he]
+description: Plugin
+website: konziiis.de
 
-name: 'Minecraft-Konziiis-Base-Defence'
-main: 'de.konziiis.KonziiisBaseDefence'
-api-version: '1.19'
 
 commands:
   hello:

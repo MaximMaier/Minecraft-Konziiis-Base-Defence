@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Konziis-Base-Defense" />
-        <module name="Konziiis-Base-Defence" />
+        <module name="Minecraft-Konziiis-Base-Defence" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Konziiis-Base-Defence" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

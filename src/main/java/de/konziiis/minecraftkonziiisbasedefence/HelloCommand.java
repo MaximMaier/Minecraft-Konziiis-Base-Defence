@@ -1,4 +1,4 @@
-package de.konziiis;
+package de.konziiis.minecraftkonziiisbasedefence;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -8,9 +8,9 @@ import org.bukkit.entity.Player;
 public class HelloCommand implements CommandExecutor {
 
     @SuppressWarnings("unused")
-    private KonziiisBaseDefence plugin;
+    private MinecraftKonziiisBaseDefence plugin;
 
-    public HelloCommand(KonziiisBaseDefence plugin) {
+    public HelloCommand(MinecraftKonziiisBaseDefence plugin) {
         this.plugin = plugin;
         plugin.getCommand("hello").setExecutor(this);
     }
